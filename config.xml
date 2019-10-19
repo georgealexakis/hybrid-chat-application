@@ -17,4 +17,5 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <access origin="*" />
+    <engine name="android" spec="~7.1.4" />
 </widget>
