@@ -30,12 +30,10 @@ Maximum length of message = LI + LU + LM + SA = 50 characters
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Arduino Distributed Chat</title>
-	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
 	<link rel="icon" type="image/png"
 		href="data:image/png;base64,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">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 	<!-- 
 		CSS code below for the design of the application
 	-->
@@ -156,8 +154,7 @@ Maximum length of message = LI + LU + LM + SA = 50 characters
 			}
 		}
 	</style>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"
-		type="text/javascript"></script>
+	<script src="mqtt/paho.javascript-1.0.3/paho-mqtt-min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		/* 
 		Javascript code below
@@ -408,13 +405,13 @@ HTML code is contructing the user interface, that consists of the buttons, the i
 							<div class="input-group-append">
 								<button title="Press to send a message." disabled id="b1"
 									class="btn btn-outline-secondary" type="button" onclick="publishMessage()"><i
-										class="fa fa-paper-plane" aria-hidden="true"></i></button>
+										class="fas fa-paper-plane" aria-hidden="true"></i></button>
 								<button title="Press to remove old messages one by one."
 									class="btn btn-outline-secondary" type="button" onclick="removeMessages()"><i
-										class="fa fa-refresh" aria-hidden="true"></i></button>
+										class="fas fa-sync" aria-hidden="true"></i></button>
 								<button title="Press to connect, disconnect, reconnect."
 									class="btn btn-outline-secondary" type="button" onclick="connectToServer()"><i
-										class="fa fa-sign-in" aria-hidden="true"></i></button>
+										class="fas fa-sign-in-alt" aria-hidden="true"></i></button>
 							</div>
 						</div>
 					</div>
@@ -449,6 +446,5 @@ HTML code is contructing the user interface, that consists of the buttons, the i
 		}
 	});
 </script>
-<script type="text/javascript" src="cordova.js"></script>
 
 </html>
