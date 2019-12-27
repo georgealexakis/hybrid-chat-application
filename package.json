@@ -1,6 +1,6 @@
 {
   "name": "com.hybridapp.chatapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Chat Application",
   "cordova": {
     "platforms": [
@@ -8,10 +8,28 @@
     ]
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "cordova-android": "~7.1.4"
   },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2"
-  }
+  "devDependencies": {},
+  "description": "$ phonegap create my-app --template blank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgealexakis/hybrid-chat-application.git"
+  },
+  "keywords": [
+    "Hybrid",
+    "Chat",
+    "Wemos",
+    "Arduino"
+  ],
+  "author": "George Alexakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgealexakis/hybrid-chat-application/issues"
+  },
+  "homepage": "https://github.com/georgealexakis/hybrid-chat-application#readme"
 }
