@@ -21,9 +21,9 @@ Arduino Distitributed Chat is a web application, that is enabling the communicat
 The whole infrastructure consists of the web application, that every user should have and the web server that is an Arduino based microcontroller. Microcontroller is publishing every message, that it receives. 
 
 Main benefits are involving:
-1. low power consumption
-2. easy meantence of web server
-3. low cost infrastructure
+1. Low power consumption
+2. Easy meantence of web server
+3. Low cost infrastructure
 
 Maximum length of ID is 4 characters: LI
 Maximum length of username is 8 characters: LU
@@ -49,6 +49,12 @@ Download repository code from:
 Or get a copy of the source from:
 
 ``` $ git clone https://github.com/georgealexakis/hybrid-chat-application.git (master branch) ```
+
+Run:
+
+``` npm install ```
+
+to install dependencies.
 
 ## Executing
 
