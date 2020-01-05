@@ -1,7 +1,7 @@
 /* 
 Javascript code below
 Initialization of the main variables, which are necessary for the whole operation of the system.
-Initialization of picture variabes, whicah are used for users icons.
+Initialization of picture variables, which are used for  users' icons.
 */
 var mqtt;
 var reconnectTimeout = 2000;
@@ -21,7 +21,7 @@ var pictureArray = {
     4: "data:image/png;base64,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"
 };
 /* 
-connectToServer() function is trigerring when a user is pressing the button to connect to the broker.
+connectToServer() function is triggering when a user is pressing the button to connect to the broker.
 There are three states of the button, which are describing below:
 1. Connect state
 2. Disconnect state
@@ -61,8 +61,8 @@ function onFailure(message) {
     setTimeout(MQTTconnect, reconnectTimeout);
 }
 /* 
-onMessageArrived() function is handling the arriving messages. It seperates username from messages and
-then it display the messages per case (personal messages, other messages).
+onMessageArrived() function is handling the arriving messages. It separates username from messages and
+then it displays the messages per case (personal messages, other messages).
  */
 function onMessageArrived(msg) {
     var date = new Date();
@@ -81,7 +81,7 @@ function onMessageArrived(msg) {
     }
 }
 /* 
-onConnect() function is starting the connection with the broker when everything is ready. 
+onConnect() function starts the connection with the broker when everything is ready. 
  */
 function onConnect() {
     document.getElementById("console").innerHTML = "Connected.";
@@ -91,7 +91,7 @@ function onConnect() {
     document.getElementById("message").value = "";
 }
 /* 
-publishMessage() function publish messages to the broker. 
+publishMessage() function publishes messages to the broker. 
  */
 function publishMessage() {
     var date = new Date();
@@ -102,7 +102,7 @@ function publishMessage() {
     document.getElementById("message").value = "";
 }
 /* 
-MQTTconnect() function initiallizing the MQTT connection.
+MQTTconnect() function initializes the MQTT connection.
  */
 function MQTTconnect() {
     var connection = "Connecting to " + host + " " + port + ".";
@@ -123,7 +123,7 @@ function MQTTconnect() {
     mqtt.connect(options);
 }
 /* 
-onConnectionLost() function is running when connection is lost and disable the inputs and buttons.
+onConnectionLost() function runs when the connection is lost and disable the inputs and buttons.
  */
 function onConnectionLost(responseObject) {
     if (responseObject.errorCode !== 0) {
@@ -151,7 +151,7 @@ function reconnect() {
     mqtt.connect(newOptions);
 }
 /* 
-addPersonalMessage(),  addNewMessage(), removeMessages() functions add/remove the incoming messages.
+addPersonalMessage(), addNewMessage(), removeMessages() functions add/remove the incoming messages.
  */
 function addPersonalMessage(x, y, z) {
     var newpList = document.getElementById("myList");
@@ -170,7 +170,7 @@ function removeMessages() {
     list.removeChild(list.childNodes[0]);
 }
 /*
-Server distribution: This function is choosing which server is going to serve the application (Demo only)
+Server distribution: This function chooses which server is going to serve the application (Demo only)
 */
 window.setInterval(function () {
     var time = Math.floor((Date.now() - serverTime) / 1000);
