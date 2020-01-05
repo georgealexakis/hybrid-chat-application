@@ -1,6 +1,6 @@
 # Hybrid Chat Application
 
-Arduino Distitributed Chat is a web application, that is enabling the communication between users via chat.
+Arduino Distributed Chat is a web application, that is enabling the communication between users via chat.
 
 ## Table of Contents
 
@@ -18,25 +18,25 @@ Arduino Distitributed Chat is a web application, that is enabling the communicat
 
 ## Description
 
-The whole infrastructure consists of the web application, that every user should have and the web server that is an Arduino based microcontroller. Microcontroller is publishing every message, that it receives. 
+The whole infrastructure consists of the web application, that every user should have and the web server that is an Arduino based microcontroller. The microcontroller is publishing every message, that it receives. 
 
 Main benefits are involving:
-1. Low power consumption
-2. Easy meantence of web server
-3. Low cost infrastructure
+1. Low power consumption.
+2. Easy maintenance of web server.
+3. Low-cost infrastructure.
 
-Maximum length of ID is 4 characters: LI
-Maximum length of username is 8 characters: LU
-Maximum length of message is 35 characters: LM
-Seperators(~) ammount is 3 characters: SA
-Maximum length of message = LI + LU + LM + SA = 50 characters
+The maximum length of ID is 4 characters: LI
+The maximum length of the username is 8 characters: LU
+The maximum length of a message is 35 characters: LM
+Separators(~) amount is 3 characters: SA
+The maximum length of message = LI + LU + LM + SA = 50 characters
 
 ## Technologies
 
-1.	MQTT Broker: broker.hivemq.com, Port: 1883
-2.	Microcontroller: ESP8266
-3.	Web Application: HTML, CSS, Javascript, MQTT Paho Library, Bootstrap Library
-4.	Arduino IDE (PubSubClient Library for MQTT connection)
+1.	MQTT Broker: broker.hivemq.com, Port: 1883.
+2.	Microcontroller: ESP8266.
+3.	Web Application: HTML, CSS, Javascript, MQTT Paho Library, Bootstrap Library.
+4.	Arduino IDE (PubSubClient Library for MQTT connection).
 
 ## Getting Started
 
@@ -74,12 +74,12 @@ The user opens the application as a web page and does the following steps:
 2. Then press the login button (last from right).
 3. The status becomes Online.
 4. Text input is activated.
-5. Enter text and press the send button.
+5. Enter the text and press the send button.
 6. The sender also sends the message when the sender has sent it. So he is sure he was sent.
 
 ### Future Development
 
-Usage of multiple microcontrollers, which will be synchronized with each other in case one switches off when the next one is ready. Also share tasks and cache user statuses.
+Usage of multiple microcontrollers, which will be synchronized with each other, in case of switch off when the next one is ready. Also, share tasks and cache user statuses.
 
 ## Screenshots
 
