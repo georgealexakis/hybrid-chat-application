@@ -25,11 +25,11 @@ Main benefits are involving:
 2. Easy maintenance of web server.
 3. Low-cost infrastructure.
 
-The maximum length of ID is 4 characters: LI
-The maximum length of the username is 8 characters: LU
-The maximum length of a message is 35 characters: LM
-Separators(~) amount is 3 characters: SA
-The maximum length of message = LI + LU + LM + SA = 50 characters
+* The maximum length of ID is 4 characters: LI
+* The maximum length of the username is 8 characters: LU
+* The maximum length of a message is 35 characters: LM
+* Separators(~) amount is 3 characters: SA
+* The maximum length of message = LI + LU + LM + SA = 50 characters
 
 ## Technologies
 
@@ -56,7 +56,7 @@ Run:
 
 to install dependencies.
 
-## Executing
+## Execution
 
 In your browser, open the file:
 
