@@ -75,7 +75,7 @@ The user opens the application as a web page and does the following steps:
 3. The status becomes Online.
 4. Text input is activated.
 5. Enter the text and press the send button.
-6. The sender also sends the message when the sender has sent it. So he is sure he was sent.
+6. When the someone sends a message, the message will be send also to the sender to be sure that the message has been sent.
 
 ### Future Development
 
