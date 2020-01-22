@@ -10,7 +10,7 @@ Arduino Distributed Chat is a web application, that is enabling the communicatio
 
 [Getting Started](#getting-started)
 
-[Executing](#executing)
+[Execution](#execution)
 
 [Screenshots](#screenshots)
 
