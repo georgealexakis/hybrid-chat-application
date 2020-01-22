@@ -58,6 +58,7 @@ to install dependencies.
 
 ## Execution
 
+### Hybrid Application
 In your browser, open the file:
 
     /www/index.html
@@ -65,6 +66,10 @@ In your browser, open the file:
 Or
 
 * Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab for mobile devices.
+
+### Microcontroller 
+
+Upload the code distributed-chat.ino code in Wemos D1 mini board.
 
 ### Usage Information
 
