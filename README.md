@@ -1,6 +1,6 @@
 # Hybrid Chat Application
 
-Arduino Distributed Chat is a web application, that is enabling the communication between users via chat.
+Arduino Distributed Chat is a project that consists of a web application, that enables the communication between users via chat by using a microcontroller for synchronization and messages storage.
 
 ## Table of Contents
 
