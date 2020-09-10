@@ -59,12 +59,8 @@ to install dependencies.
 ## Execution
 
 ### Hybrid Application
-In your browser, open the file:
 
-    /www/index.html
-
-Or
-
+* In your browser: [https://georgealexakis.github.io/hybrid-chat-application/](https://georgealexakis.github.io/hybrid-chat-application/)
 * Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab for mobile devices.
 
 ### Microcontroller 
