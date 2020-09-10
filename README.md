@@ -80,7 +80,7 @@ The user opens the application as a web page and does the following steps:
 
 ### Future Development
 
-Usage of multiple microcontrollers, which will be synchronized with each other, in case of switch off when the next one is ready. Also, share tasks and cache user statuses.
+Usage of multiple microcontrollers, which will be synchronized with each other, in case of switch off when the next one is ready. Also, a future improvement will be the tasks sharing and user status caching between microcontrollers.
 
 ## Screenshots
 
