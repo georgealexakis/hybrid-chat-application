@@ -60,12 +60,12 @@ to install dependencies.
 
 ### Hybrid Application
 
-* In your browser: [https://georgealexakis.github.io/hybrid-chat-application/](https://georgealexakis.github.io/hybrid-chat-application/)
+* In your browser: [https://georgealexakis.github.io/hybrid-chat-application/](https://georgealexakis.github.io/hybrid-chat-application/).
 * Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab for mobile devices.
 
 ### Microcontroller 
 
-Upload the code distributed-chat.ino code in Wemos D1 mini board.
+Upload the code distributed-chat.ino from the folder [/distributed-chat](https://github.com/georgealexakis/hybrid-chat-application/tree/master/distributed-chat) to the Wemos D1 mini microcontroller board.
 
 ### Usage Information
 
