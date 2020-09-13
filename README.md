@@ -73,7 +73,7 @@ Upload the code distributed-chat.ino from the folder [/distributed-chat](https:/
 
 ### Usage Information
 
-Every user must run the application as a web page and follow the steps bellow:
+Every user must run the application as a web page and follow the steps below:
 
 1. Enter the username.
 2. Press the login button (last from right).
