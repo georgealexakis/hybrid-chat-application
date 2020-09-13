@@ -8,6 +8,8 @@ Arduino Distributed Chat is a project that consists of a web application, that e
 
 [Technologies](#technologies)
 
+[Schematic](#schematic)
+
 [Getting Started](#getting-started)
 
 [Execution](#execution)
@@ -40,6 +42,10 @@ Single message information:
 2.	Microcontroller: ESP8266.
 3.	Web Application: HTML, CSS, Javascript, MQTT Paho Library, Bootstrap Library.
 4.	Arduino IDE (PubSubClient Library for MQTT connection).
+
+## Schematic
+
+![schematic](screenshots/schematic.png)
 
 ## Getting Started
 
