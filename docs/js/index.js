@@ -1,7 +1,7 @@
 /* 
 Javascript code below
 Initialization of the main variables, which are necessary for the whole operation of the system.
-Initialization of picture variables, which are used for  users' icons.
+Initialization of picture variables, which are used for users icons.
 */
 var mqtt;
 var reconnectTimeout = 2000;
