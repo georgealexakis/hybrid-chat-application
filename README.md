@@ -18,18 +18,21 @@ Arduino Distributed Chat is a project that consists of a web application, that e
 
 ## Description
 
-The whole infrastructure consists of the web application, that every user should have and the web server that is an Arduino based microcontroller. The microcontroller is publishing every message, that it receives. 
+The whole infrastructure consists of the web application, that every user should have and the web server that is an Arduino based microcontroller. A microcontroller in this network can publish every message, that it receives.
 
 Main benefits are involving:
-1. Low power consumption.
-2. Easy maintenance of web server.
-3. Low-cost infrastructure.
 
-* The maximum length of ID is 4 characters: LI
-* The maximum length of the username is 8 characters: LU
-* The maximum length of a message is 35 characters: LM
-* Separators(~) amount is 3 characters: SA
-* The maximum length of message = LI + LU + LM + SA = 50 characters
+* Low power consumption.
+* Easy maintenance of web server.
+* Low-cost infrastructure.
+
+Single message information:
+
+* The maximum length of ID is 4 characters: LI.
+* The maximum length of the username is 8 characters: LU.
+* The maximum length of a message is 35 characters: LM.
+* Separators(~) amount is 3 characters: SA.
+* The maximum length of message = LI + LU + LM + SA = 50 characters.S
 
 ## Technologies
 
@@ -69,7 +72,7 @@ Upload the code distributed-chat.ino from the folder [/distributed-chat](https:/
 
 ### Usage Information
 
-The user opens the application as a web page and does the following steps:
+The user runs the application as a web page and does the following steps:
 
 1. Enter the name.
 2. Then press the login button (last from right).
@@ -78,7 +81,7 @@ The user opens the application as a web page and does the following steps:
 5. Enter the text and press the send button.
 6. When the someone sends a message, the message will be send also to the sender to be sure that the message has been sent.
 
-### Future Development
+### Future Improvements
 
 Usage of multiple microcontrollers, which will be synchronized with each other, in case of switch off when the next one is ready. Also, a future improvement will be the tasks sharing and user status caching between microcontrollers.
 
