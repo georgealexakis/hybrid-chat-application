@@ -49,7 +49,7 @@ Single message information:
 
 ## Getting Started
 
-### Download the Source of Project
+### Source of Project
 
 Download repository code from:
 
