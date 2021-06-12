@@ -61,7 +61,7 @@ Or get a copy of the source from:
 
 Run:
 
-``` npm install ```
+``` $ npm install ```
 
 to install dependencies.
 
@@ -70,7 +70,7 @@ to install dependencies.
 ### Hybrid Application
 
 * In your browser: [https://georgealexakis.github.io/hybrid-chat-application/](https://georgealexakis.github.io/hybrid-chat-application/).
-* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab for mobile devices. Rename /docs folder to /www folder before build. Use the template for a cordova application, as presented in this repository 
+* Build the Hybrid Applications for different devices using Apache Cordova for mobile devices. Rename /docs folder to /www folder before build. Use the template for a cordova application, as presented in this repository 
 [https://github.com/apache/cordova-app-hello-world](https://github.com/apache/cordova-app-hello-world).
 
 ### Microcontroller 

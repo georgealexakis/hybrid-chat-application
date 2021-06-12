@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hybridapp.chatapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.hybridapp.chatapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Chat Application</name>
     <description>
         This is a hybrid application made with phonegab, that it uses MQTT to connect to the broker and then to
@@ -9,6 +9,7 @@
         George Alexakis
     </author>
     <content src="index.html" />
+
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -16,6 +17,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <access origin="*" launch-external="yes" />
-    <engine name="android" spec="~7.1.4" />
+
 </widget>
