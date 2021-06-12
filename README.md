@@ -72,6 +72,7 @@ to install dependencies.
 * In your browser: [https://georgealexakis.github.io/hybrid-chat-application/](https://georgealexakis.github.io/hybrid-chat-application/).
 * Build the Hybrid Applications for different devices using Apache Cordova for mobile devices. Rename /docs folder to /www folder before build. Use the template for a cordova application, as presented in this repository 
 [https://github.com/apache/cordova-app-hello-world](https://github.com/apache/cordova-app-hello-world).
+* For android in API 28 and above, you have to set android:usesCleartextTraffic="true" in your manifest in the application tag.
 
 ### Microcontroller 
 
